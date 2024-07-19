@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex justify-content-between p-3">
+        <div class="header_left d-flex gap-5">
+          <div class="header_left_item">
+            <i class="fas fa-location-dot mx-2"></i>
+            <span>96 Eraser Vista Suite 437, NY, US</span>
+          </div>
+
+          <div class="header_left_item">
+            <i class="fas fa-phone mx-2"></i>
+            <span>(123) 456-78-910</span>
+          </div>
+        </div>
+
+        <div class="header_right d-flex align-items-center gap-5">
+          <div class="header_right_links d-flex gap-3 align-items-center">
+            <a href="#" class="">login</a>
+            <p class="m-0">|</p>
+            <a href="#">register</a>
+          </div>
+          <div class="header_right_img d-flex align-items-center gap-2">
+            <img src="./assets/img/lan.png" alt="" />
+            <p class="m-0">English</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="p-4">
+      <div
+        class="container d-flex justify-content-between align-items-center gap-5"
+      >
+        <div class="">
+          <img src="./assets/img/logo.png" alt="" />
+        </div>
+        <div class="">
+          <ul class="d-flex align-items-center m-0 gap-3 gap-xl-5">
+            <li class="nav_link nav_link_active"><a href="#">Home</a></li>
+            <li class="nav_link"><a href="#">Rooms</a></li>
+            <li class="nav_link"><a href="#">About us</a></li>
+            <li class="nav_link"><a href="#">Pages</a></li>
+            <li class="nav_link"><a href="#">News</a></li>
+            <li class="nav_link"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="book_now">
+          <button class="btn btn-light px-4 py-2 rounded-0">Book Now</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main_screen text-center text-white">
+      <div class="container">
+        <div class="">
+          <h6 class="sub_header">WELCOME HIROTO</h6>
+          <h1 class="main_header my-5">
+            Experience the greatest for you holidays.
+          </h1>
+          <div class="">
+            <form class="d-flex">
+              <div
+                class="white_side row w-100 text-start bg-white text-secondary p-4 justify-content-center"
+              >
+                <div class="col-3">
+                  <div class="d-flex flex-column gap-4">
+                    <label for="" class="main_label">location</label>
+                    <div class="position-relative">
+                      <input
+                        type="text"
+                        placeholder="Search Location"
+                        class="w-100 p-2"
+                      />
+                      <span
+                        class="main_icon position-absolute end-0 p-3 top-50 translate-middle-y"
+                        ><i class="fas fa-magnifying-glass"></i
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-3">
+                  <div class="d-flex flex-column gap-4">
+                    <label for="" class="main_label">Check In</label>
+                    <input type="date" class="w-100 p-2" />
+                  </div>
+                </div>
+
+                <div class="col-3">
+                  <div class="d-flex flex-column gap-4">
+                    <label for="" class="main_label">Check Out</label>
+                    <input type="date" class="w-100 p-2" />
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="d-flex flex-column gap-4">
+                    <label for="" class="main_label">Person</label>
+                    <select name="" id="" class="w-100 p-2">
+                      <option value="1">2Adults , Children</option>
+                      <option value="2">2Adults</option>
+                      <option value="3">1Adults</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="black_side flex-shrink-0">
+                <button type="submit" class="h-100 border-0 px-4">
+                  Book Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

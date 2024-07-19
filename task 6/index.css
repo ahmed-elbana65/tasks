@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  background: url(https://img.freepik.com/free-photo/environmental-pollution-industry-exterior-daylight_23-2149057687.jpg?t=st=1720482559~exp=1720486159~hmac=c0d238a7b61785e05a5df9690ca2629fc26b1a7b2b09a0746ab9151b4a0d9188&w=996);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.contact_header h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.contact_header {
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.contact_inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  gap: 1rem;
+}
+.contact_inputs_info {
+  width: 40%;
+}
+.contact_inputs_info input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #eeedeb;
+}
+.contact_inputs_info input :focus {
+  outline: 0;
+}
+.cotact_input_btn button {
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  border: none;
+  background-color: #973131;
+  color: white;
+}
+.contact_info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact_info_call {
+  width: 40%;
+  background-color: red;
+  margin: 1rem 2rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.contact_info_location {
+  width: 40%;
+  background-color: red;
+  margin: 1rem 2rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.contact_info_hours {
+  width: 40%;
+  background-color: red;
+  margin: 1rem 2rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
